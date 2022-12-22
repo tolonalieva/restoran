@@ -1,0 +1,36 @@
+@media screen and (max-width: 1180px) {
+    .nav{
+        padding: 0;
+    }
+    .menu{
+        padding: 0;
+    }
+    .link{
+        padding: 0 5px;
+    }
+}
+@media screen and (max-width: 860px) {
+    .link{
+        font-size: 15px;
+    }
+    .main-header{
+        background: none;
+    }
+
+}
+@media screen and (max-width: 720px) {
+    .menu{
+        display: none;   
+    }
+    .header-right{
+        display: block;
+    }
+}
+@media screen and (max-width: 340px) {
+    .col-title{
+        font-size: 15px;
+    }
+    .btn{
+        font-size: 10px;
+    }
+}
