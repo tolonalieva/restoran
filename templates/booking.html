@@ -8,9 +8,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Lora&family=Lovers+Quarrel&family=Marck+Script&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../static/css/normalize.css">
-    <link rel="stylesheet" href="../static/css/shev-cook.css">
+    <link rel="stylesheet" href="../static/css/booking.css">
     <link rel="stylesheet" href="../static/css/nav_footer.css">
-    <link rel="stylesheet" href="../static/css/shev-cook_media.css">
+    <link rel="stylesheet" href="../static/css/booking_media.css">
 </head>
 <body>
   <section class="main-block">
@@ -55,25 +55,46 @@
       </nav>
     </div>
   </section>
-  <div class="header-img"></div>
-    <div class="main-header container">
-      <img class="header-shev-img" src="../static/img/shev is a cook.png" alt="картинка Шев-повара">
-      <div class="header">
-        <p class="Lorenzo-header">Lorenzo Strappato</p>
-        <img class="cook-img" src="../static/img/lorenzo Strappoto.png" alt="картинка">
-        <p class="Lorenzo-header">Chef</p>
-        <p class="header-text">Его имя хорошо известно в кругу профессионалов и <br> гурманов по всему миру. Лоренцо родился в Италии. <br> Главным поваром в семье был дедушка — он готовил на <br> все многолюдные семейные праздники и именно его <br> талант передался внуку. Принимал участие и побеждал <br> во многих профессиональных конкурсах, работал в <br> модных ресторанах Москвы. 2003-2011 Лоренцо <br> переезжает в Россию и начинает строить карьеру с нуля, <br> создавая себе имя в кругах столичной искушенной <br> публики. За 8 лет вдохновленной работы в Москве <br> Лоренцо зарекомендовал себя как настоящий <br> Профессионал своего дела; его слава шагнула за <br> пределы Москвы. Высокое мастерство Лоренцо в <br> гастрономии по достоинству ценили в Il Mulino Жуковка, <br> Экипаж, Bellezza, Остерия Тоскана, Bellagio и других <br> премиальных ресторанах, где он работал.</p>
+    <div class="booking-bac-img"></div>
+    <div class="main-booking container">
+      <img class="booking-img" src="../static/img/service.png" alt="картинка">
+      <div class="booking">
+        <h2 class="booking-title">Бронирование <br> столиков</h2>
+        <p class="booking-text">Вы можете получить любую <br> интересующую Вас информацию <br> по телефону или написав нам <br> e-mail, а так же использую форму <br> обратной связи.</p>
+        <p class="booking-text">+996 (558) 767557 <br>+996 (553) 108108 <br> my@mariorest.kg <br> Управляющей группой ресторанов <br> Индира Калыевна <br>
+          id0551207207@gmail.com</p>
       </div>
     </div>
-    <footer class="footer">
-      <div class="footer-row">
-        <p>© 2019 Ресторан "Марио". All Rights Reserved. Сайт разработан Vision Studio</p>
-        <div class="footer-icon">
-          <i class="fa-brands fa-instagram"></i>
-          <i class="fa-brands fa-facebook icon"></i>
+  <div class="container">
+    <div class="form-block">
+      <h3 class="title">Book a table</h3>
+      <form action="POST">
+        <div class="form-row">
+            <p><label for="name">Ваше имя</label></p>
+            <input type="text" id="name" name="name">
         </div>
+        <div class="form-row">
+            <p><label for="number">Ваше телефон</label></p>
+            <input type="number" id="number" name="number">
+        </div>
+        <div class="form-row">
+            <p><label for="email">Ваше email</label></p>
+            <input type="email" id="email" name="email">
+        </div>
+        <button type="submit" class="button">Отправить</button>
+      </form>
+   </div>
+  </div>
+  <footer class="footer">
+    <div class="footer-row">
+      <p>© 2019 Ресторан "Марио". All Rights Reserved. Сайт разработан Vision Studio</p>
+      <div class="footer-icon">
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-facebook icon"></i>
       </div>
-    </footer>
+    </div>
+  </footer>
+  
   <script src="../static/js/script.js"></script>
 </body>
 </html>
