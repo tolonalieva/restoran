@@ -1,0 +1,45 @@
+@media screen and (max-width: 1260px) {
+    .nav{
+        padding: 0;
+    }
+    .menu{
+        padding: 0;
+    }
+    .link{
+        padding: 0 5px;
+    }
+}
+@media screen and (max-width: 990px) {
+    .img{
+        max-width: 402px;
+    }
+    .text{
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 875px) {
+    .link{
+        font-size: 15px;
+    }
+}
+@media screen and (max-width: 720px) {
+    .menu{
+        display: none
+    }
+    .header-right{
+        display: block;
+    }
+}
+@media screen and (max-width: 680px) {
+    .img{
+        max-width: 202px;
+    }
+    .text{
+        font-size: 8px;
+    }
+}
+@media screen and (max-width: 400px) {
+    .row{
+        flex-wrap: wrap;
+    }
+}
