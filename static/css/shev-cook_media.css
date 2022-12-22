@@ -1,0 +1,67 @@
+@media screen and (max-width: 1180px) {
+    .nav{
+        padding: 0;
+    }
+    .menu{
+        padding: 0;
+    }
+    .link{
+        padding: 0 5px;
+    }
+}
+@media screen and (max-width: 920px) {
+    .link{
+        font-size: 15px;
+    }
+    .header-shev-img{
+        height: 700px;
+    }
+    .Lorenzo-header{
+        font-size: 45px;
+        margin: 0;
+    }
+    .cook-img{
+        width: 130px;
+    }
+    .header-text{
+        font-size: 15px;
+    }
+}
+@media screen and (max-width: 720px) {
+    .header-img{
+        background-position: 55% 0%;
+        background-size: 200%;
+        background-repeat: no-repeat;
+    }
+    .header-shev-img{
+        height: 500px;
+        margin-top: -179px;
+    }
+    .Lorenzo-header{
+        font-size: 35px;
+        margin: 0;
+    }
+    .cook-img{
+        width: 100px;
+    }
+    .header-text{
+        font-size: 10px;
+    }
+    .menu{
+        display: none;   
+    }
+    .header-right{
+        display: block;
+    }
+    .main-header{
+        background: none;
+    }
+}
+@media screen and (max-width: 540px) {
+    .main-header{
+        flex-wrap: wrap;
+    }
+    .header-text{
+        font-size: 13px;
+    }
+}

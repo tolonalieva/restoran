@@ -1,0 +1,68 @@
+*,
+::after,
+::before{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Marck Script' 'Lovers Quarrel' 'Lora';
+    background: #fff;
+    color: black;
+    font-size: 14px;
+    line-height: 1.3;
+    margin: 0;
+    font-weight: 400;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+li{
+    list-style: none;
+}
+ul{
+    padding: 0;
+}
+.container{
+    max-width: 1440px;
+    margin: 0  auto;
+    padding: 0 15px;
+}
+.main-block{
+    background: #91D7FF;
+}    
+
+.header-img{
+    height: 450px;
+    background-color: rgba(63, 63, 63, 0.21);
+    background-image: url(../img/kebab.png);
+    background-size: cover;
+    background-blend-mode: multiply;
+}
+.main-header{
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 70%, rgba(234,252,255,1) 70%, rgba(234,252,255,1) 100%);
+    padding: 0 0 160px 0;
+}
+.main-header{
+    display: flex;
+    justify-content: space-evenly;
+}
+.header{
+    text-align: center;
+}
+.header-shev-img{
+    height: 865px;
+    margin-top: -80px;
+}
+.Lorenzo-header{
+    font-family: 'Lovers Quarrel';
+    font-size: 64px;
+    margin: 0;
+}
+.cook-img{
+    width: 160px;
+}
+.header-text{
+    font-size: 20px;
+}
+
