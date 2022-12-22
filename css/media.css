@@ -1,0 +1,39 @@
+@media screen and (max-width: 1240px){
+    /* .main-block{
+        background-position: 50%;
+    } */
+    .nav{
+        padding: 0;
+    }
+    .menu{
+        padding: 0;
+    }
+    .link{
+        padding: 0 5px;
+    }
+}
+@media screen and (max-width: 980px) {
+    .link{
+        font-size: 15px;
+    }
+    .img{
+        display: none;
+    }
+    .menu{
+        display: none
+    }
+    .header-right{
+        display: block;
+    }
+
+}
+@media screen and (max-width: 510px) {
+    .title-ristorante {
+        font-size: 71px;
+    }
+}
+@media screen and (max-width: 350px) {
+    .title-ristorante {
+        font-size: 50px;
+    }
+}
