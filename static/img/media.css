@@ -1,0 +1,41 @@
+@media screen and (max-width: 1180px) {
+    .nav{
+        padding: 0;
+    }
+    .menu{
+        padding: 0;
+    }
+    .link{
+        padding: 0 5px;
+    }
+}
+@media screen and (max-width: 990px) {
+    .drinks-menu{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .ingredients-left{
+        border-right: none;
+    }
+}
+@media screen and (max-width: 910px) {
+    .link{
+        font-size: 15px;
+    }
+    .drinks-menu-block{
+        background: none;
+    }
+}
+@media screen and (max-width: 725px) {
+    .menu{
+        display: none;   
+    }
+    .header-right{
+        display: block;
+    }
+    .header-img{
+        background-position: 65% 0%;
+        background-size: 200%;
+        background-repeat: no-repeat;
+    }
+}

@@ -38,6 +38,11 @@ ul{
     background-blend-mode: multiply;
     margin-bottom: 100px;
 }
+.block{
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 70%, rgba(234,252,255,1) 70%, rgba(234,252,255,1) 100%);
+    padding: 0 0 160px 0;
+}
 .main-booking{
     display: flex;
     justify-content: space-around;

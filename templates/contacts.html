@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Lora&family=Lovers+Quarrel&family=Marck+Script&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../static/css/normalize.css">
+    <link rel="stylesheet" href="../static/css/contacts.css">
+    <link rel="stylesheet" href="../static/css/nav_footer.css">
+    <link rel="stylesheet" href="../static/css/contacts_media.css">
+</head>
+<body>
+  <section class="main-block">
+    <div class="container">
+      <nav class="nav">
+        <ul class="menu">
+          <li class="item"><a href="../templates/main.html" class="link">Главная</a></li>
+          <li class="item"><a href="../templates/main_menu.html" class="link">Меню</a></li>
+          <li class="item"><a href="../templates/halls.html" class="link">Залы</a></li>
+        </ul>
+        <a href="../templates/main.html" ><img src="../static/img/logo.mario.png" alt=""></a>
+        <ul class="menu">
+            <li class="item"><a href="../templates/shev-cook .html" class="link">Шев-повары</a></li>
+            <li class="item"><a href="../templates/booking.html" class="link">Бронирование</a></li>
+            <li class="item"><a href="../templates/contacts.html" class="link">Контакты</a></li>
+        </ul>
+        <div class="header-right">
+          <button type="button" class="nav-btn" id="navBtn"><span></span></button>
+          <nav class="main-nav nav-hidden" id="mainNav">
+              <ul class="main-nav-list">
+                <li class="main-nav-item">
+                  <a href="../templates/main.html" class="main-nav-link">Главная</a>
+              </li>
+                  <li class="main-nav-item">
+                      <a href="../templates/main_menu.html" class="main-nav-link">Меню</a>
+                  </li>
+                  <li class="main-nav-item">
+                      <a href="../templates/halls.html" class="main-nav-link">Залы </a>
+                  </li>
+                  <li class="main-nav-item">
+                      <a href="../templates/shev-cook .html" class="main-nav-link">Шев-повары</a>
+                  </li>
+                <li class="main-nav-item">
+                    <a href="../templates/booking.html" class="main-nav-link">Бронирование</a>
+                </li>
+                <li class="main-nav-item">
+                  <a href="../templates/contacts.html" class="main-nav-link">Контакты</a>
+              </li>
+              </ul>
+          </nav>
+        </div>
+      </nav>
+    </div>
+  </section>
+  <section class="block-map">
+    <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d2923.987779622984!2d74.59987161533964!3d42.87310207915577!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2skg!4v1670947915621!5m2!1sru!2skg" width="1440" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <div class="map-adres-block">
+      <div class="container block-adress">
+        <div class="block-contact">
+          <p class="contact-title">Italian restaurant <br> "Mario"</p>
+          <div class="contact-adres">
+            <div class="contact-icon"><i class="fa-sharp fa-solid fa-location-dot"></i></div>
+            <p class="contact-text"> Kyrgyzstan, Bishkek, <br> Orozbekova st. 62</p>
+          </div>
+          <div class="contact-adres">
+            <div class="contact-icon"><i class="fa-solid fa-phone"></i></div>
+            <p class="contact-text">+996 (553) 108108</p>
+          </div>
+          <div class="contact-adres">
+            <div class="contact-icon"><i class="fa-solid fa-envelope"></i></div>
+            <p class="contact-text">my@mariorest.kg</p>
+          </div>
+          <div class="contact-adres">
+            <div class="contact-icon"><i class="fa-solid fa-link"></i></div>
+            <p class="contact-text">mariorest.kg</p>
+          </div>
+          </div>
+        </div>
+  </section>
+  <div class="container reviews">
+    <h2 class="title-reviews">Здесь вы можете оставить отзыв, пожелание.</h2>
+    <p class="reviews-text">Для нас очень важно мнение наших дорогих клиентов</p>
+  </div>
+  <section class="registration">
+    <div class="container registration-block">
+        <div class="row">
+            <div class="col-info">
+                <img class="col-info-img" src="../static/img/lorenzo Strappoto.png" alt="картинка">
+                <div class="line"></div>
+                <h3 class="col-info-title">Режим работы:
+                 Мы работаем до последнего клиента!</h3>
+                <p class="text">Пон.-Пт. 12:00 - 01:00</p>
+                <p class="text text-2">Сб, Вн. 11:00 - 01:00</p>
+                <div class="line"></div>
+            </div>
+            <div class="col-forms">
+                <form method="GET">
+                    <div class="form-row">
+                        <label for="name">Ваше имя (обязательно)</label>
+                        <input type="text" id="name" class="name" name="name">
+                    </div>
+                    <div class="form-row">
+                        <label for="e-mail">Ваш e-mail (обязательно)</label>
+                        <input type="email" id="e-mail" class="e-mail" name="e-mail">
+                    </div>
+                    <div class="form-row">
+                        <label for="title">Тема</label>
+                        <input type="text" id="title" class="title" name="title">
+                    </div>
+                    <div class="form-row">
+                        <label for="message">Сообщение</label>
+                        <textarea name="message" id="message" name="message" class="message" ></textarea>
+                    </div>
+                    <button class="btn
+                    ">Отправить</button>
+                </form>
+            </div>
+        </div>
+    </div>
+   </section>
+   <footer class="footer">
+    <div class="footer-row">
+      <p>© 2019 Ресторан "Марио". All Rights Reserved. Сайт разработан Vision Studio</p>
+      <div class="footer-icon">
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-facebook icon"></i>
+      </div>
+    </div>
+  </footer>
+  <script src="../static/js/script.js"></script>
+</body>
+</html>

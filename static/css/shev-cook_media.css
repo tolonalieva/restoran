@@ -9,6 +9,11 @@
         padding: 0 5px;
     }
 }
+@media screen and (max-width: 915px) {
+    .footer-icon{
+        display: none;
+    }
+}
 @media screen and (max-width: 920px) {
     .link{
         font-size: 15px;

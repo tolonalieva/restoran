@@ -9,6 +9,11 @@
         padding: 0 5px;
     }
 }
+@media screen and (max-width: 915px) {
+    .footer-icon{
+        display: none;
+    }
+}
 @media screen and (max-width: 920px) {
     .booking-img{
         width: 370px;
@@ -66,7 +71,6 @@
     .booking-bac-img{
         background-position: 5% 5%;
         background-size: 200%;
-        background-repeat: no-repeat;
     }
     .booking-img{
         margin-top: -80%;
